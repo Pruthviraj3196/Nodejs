@@ -8,7 +8,7 @@ export default defineConfig({
     port:10000,
     proxy:{
       '/api':{
-        target:'https://mern-stack-projecthospital-management.onrender.com',
+        target:'https://nodejs-fbgs.onrender.com',
         changeOrigin:true,
         secure:false
       },
