@@ -7,11 +7,15 @@ export default defineConfig({
     host:'0.0.0.0',
     port:10000,
     proxy:{
+<<<<<<< HEAD
       '/api':{
         target:'https://mern-stack-projecthospital-management.onrender.com',
         changeOrigin:true,
         secure:false
       },
+=======
+      '/api': 'https://mern-stack-projecthospital-management.onrender.com',
+>>>>>>> origin/main
     },
   },
   plugins: [react()],
